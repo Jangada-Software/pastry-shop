@@ -16,3 +16,44 @@
 
 - Bruno
 - Jailton
+
+
+-----------------------
+#### modeling suggestion
+`pastel = {
+  "codigo": 123456,
+  "nome": "text",
+  "valor": 12.34,
+  "peso": 300,
+  "unidade": "mg",  
+  "info-extra": "",
+  "ingredientes": [
+      "queijo", "presunto", ...
+    ]
+}
+
+adicional = {
+  "texto": "text",
+  "valor": 12.34
+}
+
+bebida = {
+  "tipo": "suco, refri, ...",
+  "apresentacao": "copo, lata, garrafa, ..." 
+  "valor": 12.34,
+  "quantidade": 300,
+  "unidade": "ml, mg, kg, ...",
+  "sabor": "laranja, limão, ...",
+  "marca": "guaraná, coca, ...",
+}
+
+taxa_maquineta = {
+  "percentual": 3.45,
+}
+
+taxa_entrega = {
+  "km_max": 3,
+  "valor": 12.34
+}
+
+pedido = [pastel, bebida, adicional, taxa]`
